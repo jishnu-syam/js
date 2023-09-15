@@ -221,19 +221,19 @@
 				<div class="col-md-7 mb-5 mb-md-0 align-items-center justify-content-center mx-auto text-center">
 					<form>
 						<div class="form-group">
-							<input type="text" class="form-control px-3 py-4" placeholder="Your Name">
+							<input type="text" id="name" class="form-control px-3 py-4" placeholder="Your Name">
 						</div>
 						<div class="form-group">
-							<input type="email" class="form-control px-3 py-4" placeholder="Your Email">
+							<input type="email" id="email" class="form-control px-3 py-4" placeholder="Your Email">
 						</div>
 						<div class="form-group">
-							<input type="number" class="form-control px-3 py-4" placeholder="Your Phone">
+							<input type="number" id="phone" class="form-control px-3 py-4" placeholder="Your Phone">
 						</div>
 						<div class="form-group mb-5">
-							<textarea class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
+							<textarea id="message" class="form-control px-3 py-4"cols="30" rows="10" placeholder="Write a Message"></textarea>
 						</div>
 						<div class="form-group">
-							<input type="submit" class="btn btn-primary px-4 py-3" value="Send Message">
+							<input type="submit" onclick="sendMail()" class="btn btn-primary px-4 py-3" value="Send Message">
 						</div>
 					</form>
 				</div>
